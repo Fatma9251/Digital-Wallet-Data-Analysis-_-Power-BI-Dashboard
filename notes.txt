@@ -1,0 +1,42 @@
+Data Cleaning:
+product_amount, cashback, transaction fee:
+- currency change from rupees to EGP
+DateTime col (transaction date):
+- investigate (Time Intelligence calcs)
+
+Analysis-wise:  
+Analysis-key:
+-- profit-wise (Revenue) = transaction fee;
+-- product amount isn't my concern profit-wise, 
+but it's my concern coming to cashback-wise
+
+	Merchant_wise:
+	 Business Questions:
+	  - Who is the most frequent merchant with deals made?
+	  - Who is the most profitable merchant with deals held?
+	  - which merchants have the most loyal customers?
+	 
+
+  	  - what are the top products (profitable-wise)? 
+  	  - what are the least profitable products (profitable-wise)?
+	         *(for category and product name itself)*
+
+
+
+	Customer_wise:
+	 Business Questions:
+	  - what's the customer distribution?
+	  - what's the payment method distribution? (filter by location type)
+	  - what's the device type segment distribution? (filter by location type)
+	  - who are the most loyal customers?
+
+
+	Transaction/Payment_wise:
+	 Business Questions:
+	  - How many "Successful" trans.? "in %"
+	  - Investigate the timing pattern for "pending" trans. status
+	  - Data quality issue, the "Failed" trans. has trans. fee, why?
+	  - avg trans. fees by product category
+	  - avg trans. fees by payment method
+	  - 
+
